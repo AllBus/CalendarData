@@ -1,0 +1,190 @@
+{
+    "version" : 1,
+    "bd" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/v2.imgdb",
+    "zips" : [
+      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/january21.zip",
+      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/february21.zip",
+      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/marth21.zip"
+    ],
+    "scenes" : [
+        {
+           "name": "calendar2102",
+           "uri" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
+           "scale": 0.4,
+           "persons": [
+                {
+                    "name": "person1",
+                    "file": "inter:///february21/person.sfb",
+                    "x":-0.44,
+                    "y":0,
+                    "z": -0.1325,
+                    "materials":[
+                      {"index": 0,
+                        "name":"person1"
+                      }
+                    ]
+                },
+                {
+                    "name": "person7",
+                    "file": "inter:///february21/person.sfb",
+                    "x":0.4,
+                    "y":0,
+                    "z": -0.1325,
+                    "materials":[
+                      {"index": 0,
+                        "name":"person7"
+                      }
+                    ]
+                },
+                {
+                    "name": "person22",
+                    "file": "inter:///february21/person.sfb",
+                    "x":-0.44,
+                    "y":0,
+                    "z": 0.15,
+                    "materials":[
+                      {"index": 0,
+                        "name":"person22"
+                      }
+                    ]
+                },
+                {
+                    "name": "person23",
+                    "file": "inter:///february21/person.sfb",
+                    "x":-0.295,
+                    "y":0,
+                    "z": 0.15,
+                    "materials":[
+                      {"index": 0,
+                        "name":"person23"
+                      }
+                    ]
+
+                },
+                {
+                    "name": "person24",
+                    "file": "inter:///february21/tort.sfb",
+                    "x":-0.02,
+                    "y":0,
+                    "z": 0.15
+                },
+                {
+                    "name": "person28",
+                    "file": "inter:///february21/person.sfb",
+                    "x":0.4,
+                    "y":0,
+                    "z": 0.15,
+                    "materials":[
+                      {"index": 0,
+                        "name":"person28"
+                      }
+                    ]
+                }
+           ],
+           "animation": [
+               {
+                 "person": "person1",
+                 "animation":"calendar20"
+               },
+               {
+                "person": "person7",
+                "animation":"calendar20"
+              },
+              {
+                "person": "person22",
+                "animation":"calendar20"
+              }, 
+              {
+                "person": "person23",
+                "animation":"calendar20"
+              },
+              {
+                "person": "person24",
+                "animation":"calendar20"
+              },
+              {
+                "person": "person28",
+                "animation":"calendar20"
+              }
+           ],
+           "textures": [
+             {
+               "name": "person1",
+               "file" : "inter:///february21/cylinderf1.png",
+               "color" : [1.0, 1.0, 1.0, 1.0]
+             },
+             {
+              "name": "person7",
+              "file" : "inter:///february21/cylinderf7.png",
+              "color" : [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "person22",
+              "file" : "inter:///february21/cylinderf22.png",
+              "color" : [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "person23",
+              "file" : "inter:///february21/cylinderf23.png",
+              "color" : [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "person28",
+              "file" : "inter:///february21/cylinderf28.png",
+              "color" : [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "tort",
+              "file" : "inter:///february21/tort.png",
+              "color" : [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "fair",
+              "color" : [1.0, 0.4, 0.4, 1.0]
+            },
+            {
+              "name": "svecha",
+              "color" : [1.0, 1.0, 1.0, 1.0]
+            },
+            {
+              "name": "text",
+              "color" : [0.5, 0.7, 1.0, 0.5]
+            }
+            ]
+
+        },
+
+        {
+            "name": "calendar2101",
+            "files": ["january21.zip"],
+            "scale": 0.4038,
+            "persons": [
+                 {
+                     "name": "calendar",
+                     "file": "inter:///january21/january.sfb",
+                     "x":0,
+                     "y":0,
+                     "z":0
+                 }
+            ],
+            "animation": [
+                {
+                  "person": "calendar",
+                  "animation":"calendar5"
+                },
+                {
+                 "person": "calendar",
+                 "animation":"calendar8"
+               },
+               {
+                 "person": "calendar",
+                 "animation":"calendar10"
+               }, 
+               {
+                 "person": "calendar",
+                 "animation":"calendar20"
+               }
+            ]
+         }
+    ]
+}
