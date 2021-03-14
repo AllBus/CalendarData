@@ -27,7 +27,7 @@
              {
                  "name": "person9",
                  "file": "inter:///common/person.sfb",
-                 "x":-0.0285,
+                 "x":-0.285,
                  "y":0,
                  "z": -0.009,
                  "materials":[
@@ -39,9 +39,9 @@
              {
                  "name": "person22",
                  "file": "inter:///common/person.sfb",
-                 "x":0.318,
+                 "x":-0.42,
                  "y":0,
-                 "z": 0.004,
+                 "z": 0.106,
                  "materials":[
                    {"index": 0,
                      "name":"2103person22"
@@ -66,7 +66,7 @@
                  "file": "inter:///common/person.sfb",
                  "x":-0.254,
                  "y":0,
-                 "z": 0.02,
+                 "z": 0.2,
                  "materials":[
                    {"index": 0,
                      "name":"2103person302"
