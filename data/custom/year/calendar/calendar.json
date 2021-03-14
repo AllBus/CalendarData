@@ -49,10 +49,22 @@
                  ]
              },
              {
-                 "name": "person301",
+                 "name": "person302",
                  "file": "inter:///common/person.sfb",
                  "x":-0.305,
                  "y":0.001,
+                 "z": 0.2,
+                 "materials":[
+                   {"index": 0,
+                     "name":"2103person302"
+                   }
+                 ]
+             },
+             {
+                 "name": "person301",
+                 "file": "inter:///common/person.sfb",
+                 "x":-0.254,
+                 "y":0,
                  "z": 0.2,
                  "materials":[
                    {"index": 0,
@@ -60,18 +72,6 @@
                    }
                  ]
 
-             },
-             {
-                 "name": "person302",
-                 "file": "inter:///common/person.sfb",
-                 "x":-0.254,
-                 "y":0,
-                 "z": 0.2,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2103person302"
-                   }
-                 ]
              }
         ],
         "animation": [
