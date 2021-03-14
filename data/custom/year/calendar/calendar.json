@@ -20,7 +20,7 @@
                  "z": -0.009,
                  "materials":[
                    {"index": 0,
-                     "name":"person8"
+                     "name":"2103person8"
                    }
                  ]
              },
@@ -32,7 +32,7 @@
                  "z": -0.009,
                  "materials":[
                    {"index": 0,
-                     "name":"person9"
+                     "name":"2103person9"
                    }
                  ]
              },
@@ -44,7 +44,7 @@
                  "z": 0.004,
                  "materials":[
                    {"index": 0,
-                     "name":"person22"
+                     "name":"2103person22"
                    }
                  ]
              },
@@ -56,7 +56,7 @@
                  "z": 0.2,
                  "materials":[
                    {"index": 0,
-                     "name":"person301"
+                     "name":"2103person301"
                    }
                  ]
 
@@ -69,7 +69,7 @@
                  "z": 0.02,
                  "materials":[
                    {"index": 0,
-                     "name":"person302"
+                     "name":"2103person302"
                    }
                  ]
              }
@@ -98,27 +98,27 @@
         ],
         "textures": [
           {
-            "name": "person8",
+            "name": "2103person8",
             "file" : "inter:///march21/cylinder_m8.png",
             "color" : [1.0, 1.0, 1.0, 1.0]
           },
           {
-           "name": "person9",
+           "name": "2103person9",
            "file" : "inter:///march21/cylinder_m9.png",
            "color" : [1.0, 1.0, 1.0, 1.0]
          },
          {
-           "name": "person22",
+           "name": "2103person22",
            "file" : "inter:///march21/cylinder_m22.png",
            "color" : [1.0, 1.0, 1.0, 1.0]
          },
          {
-           "name": "person301",
+           "name": "2103person301",
            "file" : "inter:///march21/cylinder_m30_1.png",
            "color" : [1.0, 1.0, 1.0, 1.0]
          },
          {
-           "name": "person302",
+           "name": "2103person302",
            "file" : "inter:///march21/cylinder_m30_2.png",
            "color" : [1.0, 1.0, 1.0, 1.0]
          },
@@ -155,7 +155,7 @@
                     "z": -0.1325,
                     "materials":[
                       {"index": 0,
-                        "name":"person1"
+                        "name":"2102person1"
                       }
                     ]
                 },
@@ -167,7 +167,7 @@
                     "z": -0.1325,
                     "materials":[
                       {"index": 0,
-                        "name":"person7"
+                        "name":"2102person7"
                       }
                     ]
                 },
@@ -179,7 +179,7 @@
                     "z": 0.15,
                     "materials":[
                       {"index": 0,
-                        "name":"person22"
+                        "name":"2102person22"
                       }
                     ]
                 },
@@ -191,7 +191,7 @@
                     "z": 0.15,
                     "materials":[
                       {"index": 0,
-                        "name":"person23"
+                        "name":"2102person23"
                       }
                     ]
 
@@ -211,7 +211,7 @@
                     "z": 0.15,
                     "materials":[
                       {"index": 0,
-                        "name":"person28"
+                        "name":"2102person28"
                       }
                     ]
                 }
@@ -244,27 +244,27 @@
            ],
            "textures": [
              {
-               "name": "person1",
+               "name": "2102person1",
                "file" : "inter:///february21/cylinderf1.png",
                "color" : [1.0, 1.0, 1.0, 1.0]
              },
              {
-              "name": "person7",
+              "name": "2102person7",
               "file" : "inter:///february21/cylinderf7.png",
               "color" : [1.0, 1.0, 1.0, 1.0]
             },
             {
-              "name": "person22",
+              "name": "2102person22",
               "file" : "inter:///february21/cylinderf22.png",
               "color" : [1.0, 1.0, 1.0, 1.0]
             },
             {
-              "name": "person23",
+              "name": "2102person23",
               "file" : "inter:///february21/cylinderf23.png",
               "color" : [1.0, 1.0, 1.0, 1.0]
             },
             {
-              "name": "person28",
+              "name": "2102person28",
               "file" : "inter:///february21/cylinderf28.png",
               "color" : [1.0, 1.0, 1.0, 1.0]
             },
@@ -301,7 +301,7 @@
                   "z": -0.086,
                   "materials":[
                     {"index": 0,
-                      "name":"person5"
+                      "name":"2101person5"
                     }
                   ]
               },
@@ -313,7 +313,7 @@
                   "z": -0.086,
                   "materials":[
                     {"index": 0,
-                      "name":"person8"
+                      "name":"2101person8"
                     }
                   ]
               },
@@ -322,10 +322,10 @@
                   "file": "inter:///common/person.sfb",
                   "x":0.436,
                   "y":0,
-                  "z": 0.086,
+                  "z": -0.086,
                   "materials":[
                     {"index": 0,
-                      "name":"person10"
+                      "name":"2101person10"
                     }
                   ]
               },
@@ -337,7 +337,7 @@
                   "z": 0.121,
                   "materials":[
                     {"index": 0,
-                      "name":"person20"
+                      "name":"2101person20"
                     }
                   ]
  
@@ -363,22 +363,22 @@
          ],
          "textures": [
            {
-             "name": "person5",
+             "name": "2101person5",
              "file" : "inter:///january21/cylinder5.png",
              "color" : [1.0, 1.0, 1.0, 1.0]
            },
            {
-            "name": "person8",
+            "name": "2101person8",
             "file" : "inter:///january21/cylinder8.png",
             "color" : [1.0, 1.0, 1.0, 1.0]
           },
           {
-            "name": "person10",
+            "name": "2101person10",
             "file" : "inter:///january21/cylinder10.png",
             "color" : [1.0, 1.0, 1.0, 1.0]
           },
           {
-            "name": "person20",
+            "name": "2101person20",
             "file" : "inter:///january21/cylinder20.png",
             "color" : [1.0, 1.0, 1.0, 1.0]
           },
