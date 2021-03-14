@@ -86,13 +86,13 @@
            {
              "person": "person22",
              "animation":"calendar20"
-           }, 
-           {
-             "person": "person301",
-             "animation":"calendar20"
            },
            {
              "person": "person302",
+             "animation":"calendar20"
+           }, 
+           {
+             "person": "person301",
              "animation":"calendar20"
            }
         ],
