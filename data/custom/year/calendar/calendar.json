@@ -4,9 +4,145 @@
     "zips" : [
       "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/common.zip",
       "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/janfeb21.zip",
-      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/march21.zip"
+      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/march21.zip",
+      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/april21.zip"
     ],
     "scenes" : [
+      {
+        "name": "calendar2104",
+        "uri" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
+        "scale": 0.4,
+        "persons": [
+             {
+                 "name": "person12",
+                 "file": "inter:///common/person.sfb",
+                 "x": -0.446,
+                 "y": 0.000,
+                 "z": 0.0,
+                 "materials":[
+                   {"index": 0,
+                     "name":"2104person12"
+                   }
+                 ]
+             },
+             {
+                 "name": "person131",
+                 "file": "inter:///common/person.sfb",
+                 "x": -0.32,
+                 "y": 0.0,
+                 "z": 0.0,
+                 "materials":[
+                   {"index": 0,
+                     "name":"2104person131"
+                   }
+                 ]
+             },
+             {
+                 "name": "person132",
+                 "file": "inter:///common/person.sfb",
+                 "x": -0.278,
+                 "y": 0.001,
+                 "z": 0.0,
+                 "materials":[
+                   {"index": 0,
+                     "name":"2104person132"
+                   }
+                 ]
+             },
+             {
+                 "name": "person16",
+                 "file": "inter:///common/person.sfb",
+                 "x": 0.13,
+                 "y": 0.0,
+                 "z": 0.0,
+                 "materials":[
+                   {"index": 0,
+                     "name":"2104person16"
+                   }
+                 ]
+             },
+             {
+                 "name": "person27",
+                 "file": "inter:///common/person.sfb",
+                 "x": -0.3,
+                 "y": 0.0,
+                 "z": 0.192,
+                 "materials":[
+                   {"index": 0,
+                     "name":"2104person27"
+                   }
+                 ]
+
+             }
+        ],
+        "animation": [
+            {
+              "person": "person12",
+              "animation":"calendar20"
+            },
+            {
+             "person": "person131",
+             "animation":"calendar20"
+           },
+           {
+             "person": "person132",
+             "animation":"calendar20"
+           },
+           {
+             "person": "person16",
+             "animation":"calendar20"
+           }, 
+           {
+             "person": "person27",
+             "animation":"calendar20"
+           }
+        ],
+        "textures": [
+          {
+            "name": "2104person12",
+            "file" : "inter:///april21/cylinder_a12.png",
+            "color" : [1.0, 1.0, 1.0, 1.0]
+          },
+          {
+           "name": "2104person132",
+           "file" : "inter:///april21/cylinder_a13.png",
+           "color" : [1.0, 1.0, 1.0, 1.0]
+         },
+         {
+           "name": "2104person131",
+           "file" : "inter:///april21/cylinder_a13_2.png",
+           "color" : [1.0, 1.0, 1.0, 1.0]
+         },
+         {
+           "name": "2104person16",
+           "file" : "inter:///april21/cylinder_a16.png",
+           "color" : [1.0, 1.0, 1.0, 1.0]
+         },
+         {
+           "name": "2104person27",
+           "file" : "inter:///april21/cylinder_a27.png",
+           "color" : [1.0, 1.0, 1.0, 1.0]
+         },
+         {
+           "name": "tort",
+           "file" : "inter:///common/tort.png",
+           "color" : [1.0, 1.0, 1.0, 1.0]
+         },
+         {
+           "name": "fair",
+           "color" : [1.0, 0.4, 0.4, 1.0]
+         },
+         {
+           "name": "svecha",
+           "color" : [1.0, 1.0, 1.0, 1.0]
+         },
+         {
+           "name": "text",
+           "color" : [0.5, 0.7, 1.0, 0.5]
+         }
+         ]
+
+      },
       {
         "name": "calendar2103",
         "uri" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
