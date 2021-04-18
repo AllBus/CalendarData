@@ -1,8 +1,8 @@
 {
-    "version" : 4,
+    "version" : 5,
     "bd" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/v2.imgdb",
     "zips" : [
-      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/common2.zip",
+      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/common.zip",
       "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/janfeb21.zip",
       "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/march21.zip",
       "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/april21.zip",
