@@ -1,695 +1,897 @@
 {
-    "version" : 6,
-    "bd" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/v2.imgdb",
-    "zips" : [
-      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/common.zip",
-      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/janfeb21.zip",
-      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/march21.zip",
-      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/april21.zip",
-      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/may21.zip",
-      "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/jun21.zip"
-    ],
-    "scenes" : [
-      {
-        "name": "calendar2106",
-        "uri" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
-        "scale": 0.4,
-        "persons": [
-             {
-                 "name": "person15",
-                 "file": "inter:///common/sharik.sfb",
-                 "x": -0.287,
-                 "y": 0.000,
-                 "z": 0.01,
-                 "materials":[
-                   {"index": 2,
-                     "name":"2106person15"
-                   }
-                 ]
-             },
-             {
-                 "name": "person21",
-                 "file": "inter:///jun21/super.sfb",
-                 "x": -0.45,
-                 "y": 0.0,
-                 "z": 0.115,
-                 "materials":[
-                   {"index": 9,
-                     "name":"2106person21"
-                   }
-                 ]
-             },
-             {
-                 "name": "person23",
-                 "file": "inter:///common/sharik.sfb",
-                 "x": -0.15,
-                 "y": 0.0,
-                 "z": 0.115,
-                 "materials":[
-                   {"index": 2,
-                     "name":"2106person23"
-                   }
-                 ]
-             }
-        ],
-        "animation": [
-            {
-              "person": "person15",
-              "animation":"calendar20"
-            },
-            {
-             "person": "person21",
-             "animation":"calendar20"
-           },
-           {
-             "person": "person23",
-             "animation":"calendar20"
-           }
-        ],
-        "textures": [
-          {
-            "name": "2106person15",
-            "file" : "inter:///jun21/cylinderi15.png",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-           "name": "2106person21",
-           "file" : "inter:///jun21/cylinderi21.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "2106person23",
-           "file" : "inter:///jun21/cylinderi23.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         }
-         ]
-
-      },
-
-      {
-        "name": "calendar2105",
-        "uri" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
-        "scale": 0.4,
-        "persons": [
-             {
-                 "name": "person5",
-                 "file": "inter:///common/sharik.sfb",
-                 "x": -0.155,
-                 "y": 0.000,
-                 "z": -0.085,
-                 "materials":[
-                   {"index": 2,
-                     "name":"2105person5"
-                   }
-                 ]
-             },
-             {
-                 "name": "person9",
-                 "file": "inter:///common/sharik.sfb",
-                 "x": 0.405,
-                 "y": 0.0,
-                 "z": -0.085,
-                 "materials":[
-                   {"index": 2,
-                     "name":"2105person9"
-                   }
-                 ]
-             },
-             {
-                 "name": "person16",
-                 "file": "inter:///common/sharik.sfb",
-                 "x": 0.405,
-                 "y": 0.0,
-                 "z": 0.012,
-                 "materials":[
-                   {"index": 2,
-                     "name":"2105person16"
-                   }
-                 ]
-             }
-        ],
-        "animation": [
-            {
-              "person": "person5",
-              "animation":"calendar20"
-            },
-            {
-             "person": "person9",
-             "animation":"calendar20"
-           },
-           {
-             "person": "person16",
-             "animation":"calendar20"
-           }
-        ],
-        "textures": [
-          {
-            "name": "2105person5",
-            "file" : "inter:///may21/cylinder_ma05.png",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-           "name": "2105person9",
-           "file" : "inter:///may21/cylinder_ma09.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "2105person16",
-           "file" : "inter:///may21/cylinder_ma15.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         }
-         ]
-
-      },
-
-      {
-        "name": "calendar2104",
-        "uri" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
-        "scale": 0.4,
-        "persons": [
-             {
-                 "name": "person12",
-                 "file": "inter:///common/person.sfb",
-                 "x": -0.446,
-                 "y": 0.000,
-                 "z": 0.0,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2104person12"
-                   }
-                 ]
-             },
-             {
-                 "name": "person131",
-                 "file": "inter:///common/person.sfb",
-                 "x": -0.32,
-                 "y": 0.0,
-                 "z": 0.0,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2104person131"
-                   }
-                 ]
-             },
-             {
-                 "name": "person132",
-                 "file": "inter:///common/person.sfb",
-                 "x": -0.278,
-                 "y": 0.001,
-                 "z": 0.0,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2104person132"
-                   }
-                 ]
-             },
-             {
-                 "name": "person16",
-                 "file": "inter:///common/person.sfb",
-                 "x": 0.13,
-                 "y": 0.0,
-                 "z": 0.0,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2104person16"
-                   }
-                 ]
-             },
-             {
-                 "name": "person27",
-                 "file": "inter:///common/person.sfb",
-                 "x": -0.3,
-                 "y": 0.0,
-                 "z": 0.192,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2104person27"
-                   }
-                 ]
-
-             }
-        ],
-        "animation": [
-            {
-              "person": "person12",
-              "animation":"calendar20"
-            },
-            {
-             "person": "person131",
-             "animation":"calendar20"
-           },
-           {
-             "person": "person132",
-             "animation":"calendar20"
-           },
-           {
-             "person": "person16",
-             "animation":"calendar20"
-           }, 
-           {
-             "person": "person27",
-             "animation":"calendar20"
-           }
-        ],
-        "textures": [
-          {
-            "name": "2104person12",
-            "file" : "inter:///april21/cylinder_a12.png",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-           "name": "2104person132",
-           "file" : "inter:///april21/cylinder_a13.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "2104person131",
-           "file" : "inter:///april21/cylinder_a13_2.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "2104person16",
-           "file" : "inter:///april21/cylinder_a16.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "2104person27",
-           "file" : "inter:///april21/cylinder_a27.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "tort",
-           "file" : "inter:///common/tort.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "fair",
-           "color" : [1.0, 0.4, 0.4, 1.0]
-         },
-         {
-           "name": "svecha",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "text",
-           "color" : [0.5, 0.7, 1.0, 0.5]
-         }
-         ]
-
-      },
-      {
-        "name": "calendar2103",
-        "uri" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
-        "scale": 0.4,
-        "persons": [
-             {
-                 "name": "person8",
-                 "file": "inter:///common/person.sfb",
-                 "x":-0.45,
-                 "y":0.000,
-                 "z": -0.09,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2103person8"
-                   }
-                 ]
-             },
-             {
-                 "name": "person9",
-                 "file": "inter:///common/person.sfb",
-                 "x":-0.285,
-                 "y":0,
-                 "z": -0.09,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2103person9"
-                   }
-                 ]
-             },
-             {
-                 "name": "person22",
-                 "file": "inter:///common/person.sfb",
-                 "x":-0.42,
-                 "y":0,
-                 "z": 0.106,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2103person22"
-                   }
-                 ]
-             },
-             {
-                 "name": "person302",
-                 "file": "inter:///common/person.sfb",
-                 "x":-0.305,
-                 "y":0.001,
-                 "z": 0.2,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2103person302"
-                   }
-                 ]
-             },
-             {
-                 "name": "person301",
-                 "file": "inter:///common/person.sfb",
-                 "x":-0.254,
-                 "y":0,
-                 "z": 0.2,
-                 "materials":[
-                   {"index": 0,
-                     "name":"2103person301"
-                   }
-                 ]
-
-             }
-        ],
-        "animation": [
-            {
-              "person": "person8",
-              "animation":"calendar20"
-            },
-            {
-             "person": "person9",
-             "animation":"calendar20"
-           },
-           {
-             "person": "person22",
-             "animation":"calendar20"
-           },
-           {
-             "person": "person302",
-             "animation":"calendar20"
-           }, 
-           {
-             "person": "person301",
-             "animation":"calendar20"
-           }
-        ],
-        "textures": [
-          {
-            "name": "2103person8",
-            "file" : "inter:///march21/cylinder_m8.png",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-           "name": "2103person9",
-           "file" : "inter:///march21/cylinder_m9.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "2103person22",
-           "file" : "inter:///march21/cylinder_m22.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "2103person301",
-           "file" : "inter:///march21/cylinder_m30_1.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "2103person302",
-           "file" : "inter:///march21/cylinder_m30_2.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "tort",
-           "file" : "inter:///common/tort.png",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "fair",
-           "color" : [1.0, 0.4, 0.4, 1.0]
-         },
-         {
-           "name": "svecha",
-           "color" : [1.0, 1.0, 1.0, 1.0]
-         },
-         {
-           "name": "text",
-           "color" : [0.5, 0.7, 1.0, 0.5]
-         }
-         ]
-
-      },
+  "version": 6,
+  "bd": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/v2.imgdb",
+  "zips": [
+    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/common.zip",
+    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/janfeb21.zip",
+    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/march21.zip",
+    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/april21.zip",
+    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/may21.zip",
+    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/jun21.zip"
+  ],
+  "scenes": [
+    {
+      "name": "calendar2106",
+      "uri": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
+      "scale": 0.4,
+      "persons": [
         {
-           "name": "calendar2102",
-           "uri" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
-           "scale": 0.4,
-           "persons": [
-                {
-                    "name": "person1",
-                    "file": "inter:///common/person.sfb",
-                    "x":-0.44,
-                    "y":0,
-                    "z": -0.1325,
-                    "materials":[
-                      {"index": 0,
-                        "name":"2102person1"
-                      }
-                    ]
-                },
-                {
-                    "name": "person7",
-                    "file": "inter:///common/person.sfb",
-                    "x":0.4,
-                    "y":0,
-                    "z": -0.1325,
-                    "materials":[
-                      {"index": 0,
-                        "name":"2102person7"
-                      }
-                    ]
-                },
-                {
-                    "name": "person22",
-                    "file": "inter:///common/person.sfb",
-                    "x":-0.44,
-                    "y":0,
-                    "z": 0.15,
-                    "materials":[
-                      {"index": 0,
-                        "name":"2102person22"
-                      }
-                    ]
-                },
-                {
-                    "name": "person23",
-                    "file": "inter:///common/person.sfb",
-                    "x":-0.295,
-                    "y":0,
-                    "z": 0.15,
-                    "materials":[
-                      {"index": 0,
-                        "name":"2102person23"
-                      }
-                    ]
-
-                },
-                {
-                    "name": "person24",
-                    "file": "inter:///common/tort.sfb",
-                    "x":-0.02,
-                    "y":0,
-                    "z": 0.15
-                },
-                {
-                    "name": "person28",
-                    "file": "inter:///common/person.sfb",
-                    "x":0.4,
-                    "y":0,
-                    "z": 0.15,
-                    "materials":[
-                      {"index": 0,
-                        "name":"2102person28"
-                      }
-                    ]
-                }
-           ],
-           "animation": [
-               {
-                 "person": "person1",
-                 "animation":"calendar20"
-               },
-               {
-                "person": "person7",
-                "animation":"calendar20"
-              },
-              {
-                "person": "person22",
-                "animation":"calendar20"
-              }, 
-              {
-                "person": "person23",
-                "animation":"calendar20"
-              },
-              {
-                "person": "person24",
-                "animation":"calendar20"
-              },
-              {
-                "person": "person28",
-                "animation":"calendar20"
-              }
-           ],
-           "textures": [
-             {
-               "name": "2102person1",
-               "file" : "inter:///february21/cylinderf1.png",
-               "color" : [1.0, 1.0, 1.0, 1.0]
-             },
-             {
-              "name": "2102person7",
-              "file" : "inter:///february21/cylinderf7.png",
-              "color" : [1.0, 1.0, 1.0, 1.0]
-            },
+          "name": "person15",
+          "file": "inter:///common/sharik.sfb",
+          "x": -0.287,
+          "y": -0.010,
+          "z": 0.01,
+          "materials": [
             {
-              "name": "2102person22",
-              "file" : "inter:///february21/cylinderf22.png",
-              "color" : [1.0, 1.0, 1.0, 1.0]
-            },
-            {
-              "name": "2102person23",
-              "file" : "inter:///february21/cylinderf23.png",
-              "color" : [1.0, 1.0, 1.0, 1.0]
-            },
-            {
-              "name": "2102person28",
-              "file" : "inter:///february21/cylinderf28.png",
-              "color" : [1.0, 1.0, 1.0, 1.0]
-            },
-            {
-              "name": "tort",
-              "file" : "inter:///common/tort.png",
-              "color" : [1.0, 1.0, 1.0, 1.0]
-            },
-            {
-              "name": "fair",
-              "color" : [1.0, 0.4, 0.4, 1.0]
-            },
-            {
-              "name": "svecha",
-              "color" : [1.0, 1.0, 1.0, 1.0]
-            },
-            {
-              "name": "text",
-              "color" : [0.5, 0.7, 1.0, 0.5]
+              "index": 2,
+              "name": "2106person15"
             }
-            ]
-
-        },
-
-        {
-            "name": "calendar2101",
-            "scale": 0.4038,
-            "persons": [
-              {
-                  "name": "person5",
-                  "file": "inter:///common/person.sfb",
-                  "x":-0.304,
-                  "y":0.000,
-                  "z": -0.086,
-                  "materials":[
-                    {"index": 0,
-                      "name":"2101person5"
-                    }
-                  ]
-              },
-              {
-                  "name": "person8",
-                  "file": "inter:///common/person.sfb",
-                  "x":0.141,
-                  "y":0,
-                  "z": -0.086,
-                  "materials":[
-                    {"index": 0,
-                      "name":"2101person8"
-                    }
-                  ]
-              },
-              {
-                  "name": "person10",
-                  "file": "inter:///common/person.sfb",
-                  "x":0.436,
-                  "y":0,
-                  "z": -0.086,
-                  "materials":[
-                    {"index": 0,
-                      "name":"2101person10"
-                    }
-                  ]
-              },
-              {
-                  "name": "person20",
-                  "file": "inter:///common/person.sfb",
-                  "x":-0.159,
-                  "y":0.0,
-                  "z": 0.121,
-                  "materials":[
-                    {"index": 0,
-                      "name":"2101person20"
-                    }
-                  ]
- 
-              }
-         ],
-         "animation": [
-             {
-               "person": "person5",
-               "animation":"calendar20"
-             },
-             {
-              "person": "person8",
-              "animation":"calendar20"
-            },
-            {
-              "person": "person10",
-              "animation":"calendar20"
-            }, 
-            {
-              "person": "person20",
-              "animation":"calendar20"
-            }
-         ],
-         "textures": [
-           {
-             "name": "2101person5",
-             "file" : "inter:///january21/cylinder5.png",
-             "color" : [1.0, 1.0, 1.0, 1.0]
-           },
-           {
-            "name": "2101person8",
-            "file" : "inter:///january21/cylinder8.png",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-            "name": "2101person10",
-            "file" : "inter:///january21/cylinder10.png",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-            "name": "2101person20",
-            "file" : "inter:///january21/cylinder20.png",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-            "name": "tort",
-            "file" : "inter:///common/tort.png",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-            "name": "fair",
-            "color" : [1.0, 0.4, 0.4, 1.0]
-          },
-          {
-            "name": "svecha",
-            "color" : [1.0, 1.0, 1.0, 1.0]
-          },
-          {
-            "name": "text",
-            "color" : [0.5, 0.7, 1.0, 0.5]
-          }
           ]
-         }
-    ]
+        },
+        {
+          "name": "person21",
+          "file": "inter:///jun21/super.sfb",
+          "x": -0.45,
+          "y": 0.10,
+          "z": 0.095
+        },
+        {
+          "name": "person23",
+          "file": "inter:///common/sharik.sfb",
+          "x": -0.15,
+          "y": -0.01,
+          "z": 0.115,
+          "materials": [
+            {
+              "index": 2,
+              "name": "2106person23"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "person": "person15",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person21",
+          "animation": "calendar21"
+        },
+        {
+          "person": "person23",
+          "animation": "calendar20"
+        }
+      ],
+      "textures": [
+        {
+          "name": "2106person15",
+          "file": "inter:///jun21/cylinderi15.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2106person23",
+          "file": "inter:///jun21/cylinderi23.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calendar2105",
+      "uri": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
+      "scale": 0.4,
+      "persons": [
+        {
+          "name": "person5",
+          "file": "inter:///common/sharik.sfb",
+          "x": -0.155,
+          "y": 0.000,
+          "z": -0.085,
+          "materials": [
+            {
+              "index": 2,
+              "name": "2105person5"
+            }
+          ]
+        },
+        {
+          "name": "person9",
+          "file": "inter:///common/sharik.sfb",
+          "x": 0.405,
+          "y": 0.0,
+          "z": -0.085,
+          "materials": [
+            {
+              "index": 2,
+              "name": "2105person9"
+            }
+          ]
+        },
+        {
+          "name": "person16",
+          "file": "inter:///common/sharik.sfb",
+          "x": 0.405,
+          "y": 0.0,
+          "z": 0.012,
+          "materials": [
+            {
+              "index": 2,
+              "name": "2105person16"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "person": "person5",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person9",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person16",
+          "animation": "calendar20"
+        }
+      ],
+      "textures": [
+        {
+          "name": "2105person5",
+          "file": "inter:///may21/cylinder_ma05.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2105person9",
+          "file": "inter:///may21/cylinder_ma09.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2105person16",
+          "file": "inter:///may21/cylinder_ma15.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calendar2104",
+      "uri": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
+      "scale": 0.4,
+      "persons": [
+        {
+          "name": "person12",
+          "file": "inter:///common/person.sfb",
+          "x": -0.446,
+          "y": 0.000,
+          "z": 0.0,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2104person12"
+            }
+          ]
+        },
+        {
+          "name": "person131",
+          "file": "inter:///common/person.sfb",
+          "x": -0.32,
+          "y": 0.0,
+          "z": 0.0,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2104person131"
+            }
+          ]
+        },
+        {
+          "name": "person132",
+          "file": "inter:///common/person.sfb",
+          "x": -0.278,
+          "y": 0.001,
+          "z": 0.0,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2104person132"
+            }
+          ]
+        },
+        {
+          "name": "person16",
+          "file": "inter:///common/person.sfb",
+          "x": 0.13,
+          "y": 0.0,
+          "z": 0.0,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2104person16"
+            }
+          ]
+        },
+        {
+          "name": "person27",
+          "file": "inter:///common/person.sfb",
+          "x": -0.3,
+          "y": 0.0,
+          "z": 0.192,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2104person27"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "person": "person12",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person131",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person132",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person16",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person27",
+          "animation": "calendar20"
+        }
+      ],
+      "textures": [
+        {
+          "name": "2104person12",
+          "file": "inter:///april21/cylinder_a12.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2104person132",
+          "file": "inter:///april21/cylinder_a13.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2104person131",
+          "file": "inter:///april21/cylinder_a13_2.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2104person16",
+          "file": "inter:///april21/cylinder_a16.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2104person27",
+          "file": "inter:///april21/cylinder_a27.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tort",
+          "file": "inter:///common/tort.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "fair",
+          "color": [
+            1.0,
+            0.4,
+            0.4,
+            1.0
+          ]
+        },
+        {
+          "name": "svecha",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "text",
+          "color": [
+            0.5,
+            0.7,
+            1.0,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calendar2103",
+      "uri": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
+      "scale": 0.4,
+      "persons": [
+        {
+          "name": "person8",
+          "file": "inter:///common/person.sfb",
+          "x": -0.45,
+          "y": 0.000,
+          "z": -0.09,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2103person8"
+            }
+          ]
+        },
+        {
+          "name": "person9",
+          "file": "inter:///common/person.sfb",
+          "x": -0.285,
+          "y": 0,
+          "z": -0.09,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2103person9"
+            }
+          ]
+        },
+        {
+          "name": "person22",
+          "file": "inter:///common/person.sfb",
+          "x": -0.42,
+          "y": 0,
+          "z": 0.106,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2103person22"
+            }
+          ]
+        },
+        {
+          "name": "person302",
+          "file": "inter:///common/person.sfb",
+          "x": -0.305,
+          "y": 0.001,
+          "z": 0.2,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2103person302"
+            }
+          ]
+        },
+        {
+          "name": "person301",
+          "file": "inter:///common/person.sfb",
+          "x": -0.254,
+          "y": 0,
+          "z": 0.2,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2103person301"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "person": "person8",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person9",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person22",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person302",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person301",
+          "animation": "calendar20"
+        }
+      ],
+      "textures": [
+        {
+          "name": "2103person8",
+          "file": "inter:///march21/cylinder_m8.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2103person9",
+          "file": "inter:///march21/cylinder_m9.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2103person22",
+          "file": "inter:///march21/cylinder_m22.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2103person301",
+          "file": "inter:///march21/cylinder_m30_1.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2103person302",
+          "file": "inter:///march21/cylinder_m30_2.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tort",
+          "file": "inter:///common/tort.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "fair",
+          "color": [
+            1.0,
+            0.4,
+            0.4,
+            1.0
+          ]
+        },
+        {
+          "name": "svecha",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "text",
+          "color": [
+            0.5,
+            0.7,
+            1.0,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calendar2102",
+      "uri": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
+      "scale": 0.4,
+      "persons": [
+        {
+          "name": "person1",
+          "file": "inter:///common/person.sfb",
+          "x": -0.44,
+          "y": 0,
+          "z": -0.1325,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2102person1"
+            }
+          ]
+        },
+        {
+          "name": "person7",
+          "file": "inter:///common/person.sfb",
+          "x": 0.4,
+          "y": 0,
+          "z": -0.1325,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2102person7"
+            }
+          ]
+        },
+        {
+          "name": "person22",
+          "file": "inter:///common/person.sfb",
+          "x": -0.44,
+          "y": 0,
+          "z": 0.15,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2102person22"
+            }
+          ]
+        },
+        {
+          "name": "person23",
+          "file": "inter:///common/person.sfb",
+          "x": -0.295,
+          "y": 0,
+          "z": 0.15,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2102person23"
+            }
+          ]
+        },
+        {
+          "name": "person24",
+          "file": "inter:///common/tort.sfb",
+          "x": -0.02,
+          "y": 0,
+          "z": 0.15
+        },
+        {
+          "name": "person28",
+          "file": "inter:///common/person.sfb",
+          "x": 0.4,
+          "y": 0,
+          "z": 0.15,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2102person28"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "person": "person1",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person7",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person22",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person23",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person24",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person28",
+          "animation": "calendar20"
+        }
+      ],
+      "textures": [
+        {
+          "name": "2102person1",
+          "file": "inter:///february21/cylinderf1.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2102person7",
+          "file": "inter:///february21/cylinderf7.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2102person22",
+          "file": "inter:///february21/cylinderf22.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2102person23",
+          "file": "inter:///february21/cylinderf23.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2102person28",
+          "file": "inter:///february21/cylinderf28.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tort",
+          "file": "inter:///common/tort.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "fair",
+          "color": [
+            1.0,
+            0.4,
+            0.4,
+            1.0
+          ]
+        },
+        {
+          "name": "svecha",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "text",
+          "color": [
+            0.5,
+            0.7,
+            1.0,
+            0.5
+          ]
+        }
+      ]
+    },
+    {
+      "name": "calendar2101",
+      "scale": 0.4038,
+      "persons": [
+        {
+          "name": "person5",
+          "file": "inter:///common/person.sfb",
+          "x": -0.304,
+          "y": 0.000,
+          "z": -0.086,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2101person5"
+            }
+          ]
+        },
+        {
+          "name": "person8",
+          "file": "inter:///common/person.sfb",
+          "x": 0.141,
+          "y": 0,
+          "z": -0.086,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2101person8"
+            }
+          ]
+        },
+        {
+          "name": "person10",
+          "file": "inter:///common/person.sfb",
+          "x": 0.436,
+          "y": 0,
+          "z": -0.086,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2101person10"
+            }
+          ]
+        },
+        {
+          "name": "person20",
+          "file": "inter:///common/person.sfb",
+          "x": -0.159,
+          "y": 0.0,
+          "z": 0.121,
+          "materials": [
+            {
+              "index": 0,
+              "name": "2101person20"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "person": "person5",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person8",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person10",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person20",
+          "animation": "calendar20"
+        }
+      ],
+      "textures": [
+        {
+          "name": "2101person5",
+          "file": "inter:///january21/cylinder5.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2101person8",
+          "file": "inter:///january21/cylinder8.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2101person10",
+          "file": "inter:///january21/cylinder10.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2101person20",
+          "file": "inter:///january21/cylinder20.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "tort",
+          "file": "inter:///common/tort.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "fair",
+          "color": [
+            1.0,
+            0.4,
+            0.4,
+            1.0
+          ]
+        },
+        {
+          "name": "svecha",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "text",
+          "color": [
+            0.5,
+            0.7,
+            1.0,
+            0.5
+          ]
+        }
+      ]
+    }
+  ]
 }
