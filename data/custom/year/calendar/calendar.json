@@ -51,12 +51,12 @@
       ],
       "animation": [
         {
-          "person": "person15",
-          "animation": "calendar20"
-        },
-        {
           "person": "person21",
           "animation": "calendar21"
+        },
+        {
+          "person": "person15",
+          "animation": "calendar20"
         },
         {
           "person": "person23",
