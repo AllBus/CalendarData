@@ -19,9 +19,9 @@
         {
           "name": "person181",
           "file": "inter:///jul21/tort_sharik.sfb",
-          "x": 0.325,
+          "x": 0.33,
           "y": -0.01,
-          "z": 0.02,
+          "z": 0.012,
           "materials": [
             {
               "index": 2,
@@ -32,9 +32,9 @@
         {
           "name": "person182",
           "file": "inter:///jul21/tort_sharik_right.sfb",
-          "x": 0.366,
+          "x": 0.422,
           "y": 0.001,
-          "z": 0.02,
+          "z": 0.012,
           "materials": [
             {
               "index": 2,
@@ -47,7 +47,7 @@
           "file": "inter:///jul21/tort_sharik.sfb",
           "x": -0.368,
           "y": -0.01,
-          "z": 0.21,
+          "z": 0.16,
           "materials": [
             {
               "index": 2,
