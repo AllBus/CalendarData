@@ -1,6 +1,6 @@
 {
     "magic" : 1,
-    "version" : 6,
+    "version" : 7,
     "bd" : "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/v2.imgdb",
     "data": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/calendar.json"
 }

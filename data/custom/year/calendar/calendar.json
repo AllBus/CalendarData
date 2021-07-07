@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 7,
   "bd": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/v2.imgdb",
   "zips": [
     "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/common.zip",
@@ -7,9 +7,102 @@
     "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/march21.zip",
     "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/april21.zip",
     "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/may21.zip",
-    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/jun21.zip"
+    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/jun21.zip",
+    "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/jul21.zip"
   ],
   "scenes": [
+    {
+      "name": "calendar2107",
+      "uri": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
+      "scale": 0.4,
+      "persons": [
+        {
+          "name": "person181",
+          "file": "inter:///jul21/tort_sharik.sfb",
+          "x": 0.325,
+          "y": -0.01,
+          "z": 0.02,
+          "materials": [
+            {
+              "index": 2,
+              "name": "2107person181"
+            }
+          ]
+        },
+        {
+          "name": "person182",
+          "file": "inter:///jul21/tort_sharik_right.sfb",
+          "x": 0.366,
+          "y": 0.001,
+          "z": 0.02,
+          "materials": [
+            {
+              "index": 2,
+              "name": "2107person182"
+            }
+          ]
+        },
+        {
+          "name": "person26",
+          "file": "inter:///jul21/tort_sharik.sfb",
+          "x": -0.368,
+          "y": -0.01,
+          "z": 0.21,
+          "materials": [
+            {
+              "index": 2,
+              "name": "2107person26"
+            }
+          ]
+        }
+      ],
+      "animation": [
+        {
+          "person": "person181",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person182",
+          "animation": "calendar20"
+        },
+        {
+          "person": "person26",
+          "animation": "calendar20"
+        }
+      ],
+      "textures": [
+        {
+          "name": "2107person181",
+          "file": "inter:///jul21/cylinderju18_1.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2107person182",
+          "file": "inter:///jul21/cylinderju18_2.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "name": "2107person26",
+          "file": "inter:///jul21/cylinderju26.png",
+          "color": [
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    },
     {
       "name": "calendar2106",
       "uri": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/",
