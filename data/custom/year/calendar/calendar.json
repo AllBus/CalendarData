@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "bd": "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/v2.imgdb",
   "zips": [
     "https://raw.githubusercontent.com/AllBus/CalendarData/data/data/custom/year/calendar/st/common.zip",
@@ -41,17 +41,7 @@
                     "name": "2111person22"
                   }
                 ]},
-
-               {
-               "name": "person13",
-               "file": "inter:///jul21/tort_sharik.sfb",
-               "x":0.2862155, "y":-0.01, "z":-0.1087719,
-               "materials": [
-                 {
-                   "index": 2,
-                   "name": "2111person13"
-                 }
-               ]},{
+              {
                "name": "person14",
                "file": "inter:///jul21/tort_sharik.sfb",
                "x":0.4370927, "y":-0.01, "z":-0.1087719,
@@ -80,10 +70,7 @@
       "person": "person22",
       "animation": "calendar20"
 },
-     {
-               "person": "person13",
-               "animation": "calendar20"
-     },{
+{
                "person": "person14",
                "animation": "calendar20"
      },{
@@ -102,11 +89,7 @@
       "file": "inter:///nov21/nov_2_2.png",
       "color": [ 1.0, 1.0, 1.0, 1.0 ]
       },
-     {
-               "name": "2111person13",
-               "file": "inter:///nov21/nov_13.png",
-               "color": [ 1.0, 1.0, 1.0, 1.0 ]
-     },{
+      {
                "name": "2111person14",
                "file": "inter:///nov21/nov_14.png",
                "color": [ 1.0, 1.0, 1.0, 1.0 ]
